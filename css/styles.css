@@ -1,0 +1,212 @@
+/* general */
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /* --primary-text-color: ; */
+    /* --accent-color:  */
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+/* /general */
+
+/* body */
+body {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+/* header */
+/* logo */
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.sub-logo {
+    color: #2196F3;
+}
+
+/* ==/logo== */
+
+/* ==nav menu== */
+.menu-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+
+.menu-email {
+    font-weight: 500;
+    color: #757575;
+}
+.menu-email:hover,
+.menu-email:focus {color: #2196F3}
+
+.menu-phone {
+    font-weight: 500;
+    color: #757575;
+}
+.menu-phone:hover,
+.menu-phone:focus {
+    color: #2196F3
+}
+
+.head-section{
+    background-color: #2F303A;
+}
+.main-title {
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.modal-btn {
+    font-family: inherit;
+    font-weight: 700;
+    Font-size: 16px;
+    Line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: white;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {color: white;
+    background-color: #2196F3}
+
+/* ==/nav menu== */
+
+/* ==section наши особенности== */
+.about-section{
+    background-color: #E5E5E5;
+}
+.list-subtitle {
+    font-weight: 700;
+    line-height: 1.14;
+    color: #212121;
+}
+
+.list-description {
+    line-height: 1.7;
+    color: #757575;
+}
+/* ==/section наши особенности== */
+
+/* section Чем мы занимаемся */
+.we-do-section{
+    background-color: #E5E5E5;
+}
+.section-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+text-transform: uppercase;
+}
+    /* ==/section Чем мы занимаемся== */
+
+    /* ==team section== */
+    .team-section {
+        background-color: #F5F4FA;
+    }
+    .worker-name {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.17;
+            color: #212121;
+    }
+.job-name{
+        font-size: 16px;
+        line-height: 1.17;
+        color: #757575;
+}
+/* ==/team section== */
+
+/* ==footer page== */
+.address-main{
+    font-style: normal;
+    background-color: #2F303A;
+}
+.lastsub-logo{
+     color: white; 
+}
+.address-map {
+        line-height: 1.7;
+        color: white;
+}
+.address-map:hover,
+.address-map:focus{
+    color: #2196F3;
+}
+.address-mail {
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-mail:hover,
+.address-mail:focus {
+    color: #2196F3;
+}
+.address-phone {
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6)
+}
+.address-phone:hover,
+.address-phone:focus {
+    color: #2196F3;
+}
+
+/* main page portfolio */
+.portfolio-main{
+    background-color: #E5E5E5;
+}
+.nav-btn {
+    font-family: inherit;
+     font-weight: 500;
+      font-size: 16px;
+       line-height: 1.63;
+        Letter-spacing: 0.03em;
+        background-color: #F5F4FA;
+        cursor: pointer;
+}
+.nav-btn:hover,
+.nav-btn:focus {
+    background-color: #2196F3;
+    color: white;
+}
+
+.project-title {
+font-weight: 700;
+Font-size: 18px;
+Line-height: 2;
+Letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-family: 'Roboto', sans-serif;
+        Font-size: 16px;
+        Line-height: 1.88;
+        Letter-spacing: 0.03em;
+        color: #757575;
+}
+.job-name {
+    font-size: 16px;
+    color: #757575;
+}
